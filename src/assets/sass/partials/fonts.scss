@@ -71,3 +71,12 @@
 	font-weight: 300;
 	font-style: normal;
 }
+
+//helvetica neue
+
+@font-face {
+	font-family: 'HelveticaNeueCyr-Roman';
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format('woff2'), url("../fonts/HelveticaNeueCyr-Roman.woff") format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
