@@ -2,8 +2,7 @@
 @import 'partials/variables';
 @import 'partials/mixins';
 @import '../libs/slick/slick/slick.scss';
-// @import '../libs/plyr/dist/plyr.css'
-// @import '../../../build/assets/i/svg/bg/css/sprite.css'
+
 html,
 body {
 	font-size: 17px;
@@ -16,8 +15,8 @@ body {
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-size: 20px;
 	line-height: 30px;
-	color: $tundora;
-	background: maroon;
+	color: black;
+	background: white;
 }
 
 * {

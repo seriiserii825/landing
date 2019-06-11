@@ -62,3 +62,36 @@
 		color: $color;
 	}
 }
+
+@mixin opensans(){
+	font-family: 'Open Sans', sans-serif;
+}
+
+@mixin opensanslight(){
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+
+@mixin rubikregular(){
+	font-family: 'Rubik-Regular', sans-serif;
+}
+@mixin rubikrebold(){
+	font-family: 'Rubik-Bold', sans-serif;
+}
+@mixin rubikmedium(){
+	font-family: 'Rubik-Medium', sans-serif;
+}
+
+
+@mixin robotoregular(){
+	font-family: 'Roboto-Regular', sans-serif;
+}
+@mixin robotomedium(){
+	font-family: 'Roboto-Medium', sans-serif;
+}
+@mixin robotothin(){
+	font-family: 'Roboto-Thin', sans-serif;
+}
+@mixin robotolight(){
+	font-family: 'Roboto-Light', sans-serif;
+}
