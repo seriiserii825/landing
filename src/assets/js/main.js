@@ -35,10 +35,40 @@ $(function () {
   };
 
   let galleryPopup = function(){
-    $('#js-gallery').magnificPopup({
+    let gallery = $('#js-gallery');
+
+    gallery.on('click', 'a', function (e) {
+      if($(window).width() < 630){
+        e.preventDefault();
+      }
+    });
+
+    gallery.magnificPopup({
       delegate: 'a', // child items selector, by clicking on it popup will open
       type: 'image',
+      disableOn: 630,
          // Delay in milliseconds before popup is removed
+      removalDelay: 600,
+
+      mainClass: 'mfp-fade'
+    });
+
+  };
+
+  let certificatesPopup = function(){
+      let certificates = $('#js-certificates');
+
+      certificates.on('click', 'a', function (e) {
+          if($(window).width() < 890){
+            e.preventDefault();
+          }
+        });
+
+    certificates.magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      disableOn: 890,
+      type: 'image',
+      // Delay in milliseconds before popup is removed
       removalDelay: 600,
 
       // Class that is added to popup wrapper and background
@@ -50,4 +80,5 @@ $(function () {
 
   sandwitch();
   galleryPopup();
+  certificatesPopup();
 });
