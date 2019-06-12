@@ -1,7 +1,7 @@
 extends template
 
 block css
-    //- link(rel="stylesheet" type="text/css" href="assets/i/svg/bg/css/sprite.css")
+    link(rel="stylesheet" type="text/css" href="assets/libs/Magnific-Popup/dist/magnific-popup.css")
     link(rel="stylesheet" type="text/css" href="assets/css/style.min.css")
 
 block title
@@ -16,9 +16,11 @@ block content
     include ../includes/intro
     include ../includes/stock
     include ../includes/advantages
+    include ../includes/gallery
 
 
     include ../includes/scripts/ie-scripts
 
 block scripts
+    script(src="assets/libs/Magnific-Popup/dist/jquery.magnific-popup.min.js")
     script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")

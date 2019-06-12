@@ -194,7 +194,7 @@ gulp.task("audio", function () {
 /* image:dev
 ====================================================*/
 gulp.task("image", function () {
-  return gulp.src('src/assets/i/*.*', {since: gulp.lastRun('image')})
+  return gulp.src('src/assets/i/**/*.*', {since: gulp.lastRun('image')})
     .pipe(newer('build/assets/i'))
     .pipe(debug({title: "image"}))
 		.pipe(gulpif('*.svg', svgmin({
@@ -229,7 +229,7 @@ gulp.task("watch", function () {
   gulp.watch('src/pug/**/*.pug', gulp.series('pug'));
   gulp.watch('src/assets/js/main.js', gulp.series('js'));
   gulp.watch('src/assets/js/**/*.js', gulp.series('alljs'));
-  gulp.watch(['src/assets/i/*.*'], gulp.series("image"));
+  gulp.watch(['src/assets/i/**/*.*'], gulp.series("image"));
   gulp.watch(['src/assets/i/svg/inline/*.*'], gulp.series("svg"));
   gulp.watch(['src/assets/i/svg/bg/*.*'], gulp.series("svg-bg"));
   gulp.watch(['src/assets/fonts/**/*.*'], gulp.series("fonts"));

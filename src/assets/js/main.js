@@ -28,7 +28,22 @@ $(function () {
     }
   };
 
+  let galleryPopup = function(){
+    $('#js-gallery').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image',
+         // Delay in milliseconds before popup is removed
+      removalDelay: 600,
+
+      // Class that is added to popup wrapper and background
+      // make it unique to apply your CSS animations just to this exact popup
+      mainClass: 'mfp-fade'
+    });
+
+  };
+
   sandwitch();
+  galleryPopup();
 
 
 });
