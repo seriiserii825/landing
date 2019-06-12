@@ -1,0 +1,18 @@
+.section {
+  padding: 140px 0 110px;
+  &__title {
+    @include rubikrebold;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $cod-gray;
+    @media screen and (max-width: 400px) {
+      font-size: 40px;
+    }
+  }
+  &.dark {
+   .section__title {
+     color: white;
+   }
+  }
+}
