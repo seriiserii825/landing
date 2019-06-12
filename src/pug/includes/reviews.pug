@@ -1,9 +1,15 @@
-.review-section.section
+.reviews-section.section
 	h2.section__title Отзывы наших клиентов
-	p.section__description Что говорят наши клиенты
+	p.section__description.reviews-section__description Что говорят наши клиенты
 
 	.container
-		.reviews-slider
+		.reviews-buttons
+			button.reviews-button--left.reviews-button
+				+icon('reviews-button--left-icon', 'left-arrow-chevron')
+			button.reviews-button--right.reviews-button
+				+icon('reviews-button--right-icon', 'right-arrow-chevron')
+
+		.reviews-slider#reviews-slider
 			.reviews__item-slider
 				img.reviews-slider__img(src="assets/i/reviews/1.jpg" alt="")
 				h3.reviews-slider__title Ольга

@@ -195,13 +195,13 @@ gulp.task("audio", function () {
 ====================================================*/
 gulp.task("image", function () {
   return gulp.src('src/assets/i/**/*.*', {since: gulp.lastRun('image')})
-    .pipe(newer('build/assets/i'))
+    // .pipe(newer('build/assets/i'))
     .pipe(debug({title: "image"}))
-		.pipe(gulpif('*.svg', svgmin({
-      js2svg: {
-        pretty: true
-      }
-    })))
+		// .pipe(gulpif('*.svg', svgmin({
+    //   js2svg: {
+    //     pretty: true
+    //   }
+    // })))
     .pipe(gulp.dest('build/assets/i'))
     .pipe(browserSync.reload({
       stream: true

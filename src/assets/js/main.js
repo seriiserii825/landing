@@ -56,29 +56,51 @@ $(function () {
   };
 
   let certificatesPopup = function(){
-      let certificates = $('#js-certificates');
+		let certificates = $('#js-certificates');
 
-      certificates.on('click', 'a', function (e) {
+		certificates.on('click', 'a', function (e) {
           if($(window).width() < 890){
             e.preventDefault();
           }
         });
 
-    certificates.magnificPopup({
-      delegate: 'a', // child items selector, by clicking on it popup will open
-      disableOn: 890,
-      type: 'image',
-      // Delay in milliseconds before popup is removed
-      removalDelay: 600,
+		certificates.magnificPopup({
+		delegate: 'a', // child items selector, by clicking on it popup will open
+		disableOn: 890,
+		type: 'image',
+		// Delay in milliseconds before popup is removed
+		removalDelay: 600,
 
-      // Class that is added to popup wrapper and background
-      // make it unique to apply your CSS animations just to this exact popup
-      mainClass: 'mfp-fade'
-    });
+		// Class that is added to popup wrapper and background
+		// make it unique to apply your CSS animations just to this exact popup
+		mainClass: 'mfp-fade'
+		});
 
-  };
+	};
 
-  sandwitch();
-  galleryPopup();
-  certificatesPopup();
+	let reviewsSlider = function () {
+		$('#reviews-slider').slick({
+			'prevArrow': '.reviews-button--left',
+			'nextArrow': '.reviews-button--right',
+			'dots': true,
+			responsive: [
+					{
+						breakpoint: 480,
+						settings: {
+							// 'dots': false,
+							'arrows': false,
+						}
+					}
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				]
+		});
+	};
+
+
+	sandwitch();
+	galleryPopup();
+	certificatesPopup();
+	reviewsSlider();
 });
