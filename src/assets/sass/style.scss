@@ -13,7 +13,7 @@ body {
 	padding: 0 0 700px;
     @include robotoregular;
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 1.3;
 	color: $cod-gray;
 	background: white;
 }
@@ -64,4 +64,5 @@ p {
 @import "blocks/header-main";
 @import "blocks/intro";
 @import "blocks/stock";
+@import "blocks/advantages";
 
