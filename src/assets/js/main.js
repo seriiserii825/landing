@@ -17,6 +17,19 @@ $(function () {
     fixedBackground: true
   });
 
+  let sandwitch = function () {
+    let mainMenuList = $('.main-menu-list');
+
+    if ($(window).width() < 520) {
+      $(document).on('click', '.sandwitch', function () {
+        $(this).toggleClass('sandwitch--active');
+        mainMenuList.slideToggle();
+      });
+    }
+  };
+
+  sandwitch();
+
 });
 
 

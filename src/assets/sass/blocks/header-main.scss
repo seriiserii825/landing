@@ -1,5 +1,5 @@
 //header-main
-.header-main {
+.header-main-top {
   &__wrap {
     padding: 15px 0;
     height: 60px;
@@ -62,4 +62,111 @@
       cursor: pointer;
     }
   }
+
 }//header-main
+.header-main-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  background: #fff;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+
+}
+.main-menu {
+  width: 100%;
+  @media screen and (max-width: 900px) {
+    margin-bottom: 30px;
+  }
+}
+.main-menu-navbar {
+  display: none;
+  padding: 20px 0;
+  @media screen and (max-width: 520px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__title {
+    margin-left: auto;
+    text-transform: uppercase;
+  }
+  .sandwitch {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}
+.main-menu-list {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 900px) {
+    justify-content: center;
+  }
+  @media screen and (min-width: 520px) {
+    display: flex!important;
+  }
+  @media screen and (max-width: 520px) {
+    display: none;
+  }
+  &__link {
+    display: block;
+    padding: 0 30px;
+    @include rubikregular;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $apple;
+    @media screen and (max-width: 520px) {
+      line-height: 30px;
+    }
+
+    &:hover {
+      color: $main-shaft;
+    }
+  }
+}
+.feedback {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 900px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 410px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > *{
+        margin: 10px  0;
+        &:first-child {
+            margin-top: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+  }
+
+  & > *{
+  	&:not(:last-child){
+  	    margin-right: 30px;
+        @media screen and (max-width: 410px) {
+          margin: 0;
+        }
+  	}
+  }
+}
+.phone {
+  &__number {
+    margin-bottom: 10px;
+    @include robotolight;
+    font-size: 18px;
+    text-decoration: none;
+    color: $main-shaft;
+  }
+  &__text {
+    @include robotolight;
+    font-size: 14px;
+  }
+}

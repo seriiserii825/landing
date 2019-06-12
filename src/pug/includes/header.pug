@@ -1,4 +1,4 @@
-.header-main__wrap
+.header-main-top__wrap
     .container
         .header-main
             .header-main-top
@@ -9,3 +9,24 @@
                         </svg>
                     span.header-main-top__description Шаблон лендинга по строительству домов
                 a.header-main-top__link Создать сайт из этого шаблона
+.header-main-bottom__wrap
+    .container
+        .header-main-bottom
+            .main-menu
+                .main-menu-navbar
+                    h3.main-menu-navbar__title Menu
+                    include ../includes/sandwitch
+                ul.main-menu-list
+                    li.main-menu-list__item
+                        a(href="#").main-menu-list__link Акция
+                    li.main-menu-list__item
+                        a(href="#").main-menu-list__link Портфолио
+                    li.main-menu-list__item
+                        a(href="#").main-menu-list__link Лицензия
+                    li.main-menu-list__item
+                        a(href="#").main-menu-list__link Отзывы
+            .header-main__feedback.feedback
+                .header-main__phone.phone
+                    a( href="tel:+74957873422" target="_blank").phone__number  8 (495) 787 34 22
+                    .phone__text По России бесплатно
+                a(href="#").btn.btn--gray Позвоните мне
