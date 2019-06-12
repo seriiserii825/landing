@@ -11,6 +11,10 @@
   border: none;
   border-radius: 30px;
   transition: all .4s ease;
+	cursor: pointer;
+	&:hover {
+		background:darken($apple, 10%);
+	}
   &.btn--gray {
     background: $cutty-sark;
     &:hover {
