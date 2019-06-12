@@ -76,10 +76,13 @@
 
 }
 .main-menu {
-  width: 100%;
   @media screen and (max-width: 900px) {
     margin-bottom: 30px;
   }
+  @media screen and (max-width: 520px) {
+    width: 100%;
+  }
+
 }
 .main-menu-navbar {
   display: none;
