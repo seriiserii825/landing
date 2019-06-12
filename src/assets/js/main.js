@@ -20,12 +20,18 @@ $(function () {
   let sandwitch = function () {
     let mainMenuList = $('.main-menu-list');
 
-    if ($(window).width() < 520) {
-      $(document).on('click', '.sandwitch', function () {
-        $(this).toggleClass('sandwitch--active');
-        mainMenuList.slideToggle();
-      });
-    }
+    $(document).on('click', '.sandwitch', function () {
+      if ($(window).width() < 520) {
+        if(mainMenuList.is(':visible')){
+          $(this).removeClass('sandwitch--active');
+          mainMenuList.slideUp();
+        }else{
+          $(this).addClass('sandwitch--active');
+          mainMenuList.slideDown();
+        }
+      }
+    });
+
   };
 
   let galleryPopup = function(){
@@ -44,9 +50,4 @@ $(function () {
 
   sandwitch();
   galleryPopup();
-
-
 });
-
-
-

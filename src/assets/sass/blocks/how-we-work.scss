@@ -1,0 +1,68 @@
+.how-we-work-wrap {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 0;
+  }
+}
+.how-we-work-content {
+  position: relative;
+  z-index: 1;
+}
+.how-we-work {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 990px) {
+    display: block;
+  }
+
+  &__title {
+    margin-bottom: 84px;
+  }
+  & > *{
+  	&:not(:last-child){
+  	    margin-right: 20px;
+        @media screen and (max-width: 990px) {
+          margin-right: auto;
+        }
+  	}
+  }
+  &__item {
+    flex: 1;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 35px 25px;
+    border-radius: 5px;
+    @media screen and (max-width: 990px) {
+      margin: 0 auto 30px auto;
+      max-width: 500px;
+    }
+
+  }
+  &__title-item {
+    margin-bottom: 40px;
+   @include rubikmedium;
+    font-size: 48px;
+    text-align: center;
+  }
+  &__subtitle {
+    margin-bottom: 30px;
+    @include rubikrebold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__text {
+    @include robotothin;
+    text-align: center;
+  }
+}
