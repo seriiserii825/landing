@@ -98,9 +98,22 @@ $(function () {
 		});
 	};
 
+	let scrollMenu = function(){
+		$('#js-main-menu-list a').on('click', function(e){
+			e.preventDefault();
+
+			let href = $(this).attr('href');
+			let hrefOffset = $(href).offset().top;
+
+			$('html, body').animate({
+				scrollTop: hrefOffset
+			}, 1000);
+		});
+	};
 
 	sandwitch();
 	galleryPopup();
 	certificatesPopup();
 	reviewsSlider();
+	scrollMenu();
 });

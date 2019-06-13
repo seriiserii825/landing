@@ -1,9 +1,14 @@
 //header-main
 .header-main-top {
   &__wrap {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
     padding: 15px 0;
     height: 60px;
     background: $ship-gray;
+		z-index: 2000;
     @media screen and (max-width: 740px) {
       height: auto;
     }
@@ -64,6 +69,9 @@
   }
 
 }//header-main
+.header-main-bottom__wrap {
+	padding-top: 60px;
+}
 .header-main-bottom {
   display: flex;
   align-items: center;
