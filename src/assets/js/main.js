@@ -109,6 +109,13 @@ $(function () {
 				scrollTop: hrefOffset
 			}, 1000);
 		});
+
+		$('#js-up').on('click', function(e){
+			e.preventDefault();
+			$('html, body').animate({
+				scrollTop: 0
+			}, 1000);
+		});
 	};
 
 	sandwitch();
