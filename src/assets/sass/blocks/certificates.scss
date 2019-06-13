@@ -33,7 +33,8 @@
 
     &:hover::before,
     &:hover .certificates__icon{
-      display: block;
+      // display: block;
+			opacity: 1;
       @media screen and (max-width: 890px) {
         display: none;
       }
@@ -42,12 +43,14 @@
     &::before {
       content: '';
       position: absolute;
-      display: none;
+      // display: none;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       background: rgba(0,0,0,.3);
+			opacity: 0;
+			transition: all .6s ease;
       @media screen and (max-width: 890px) {
         display: none;
       }
@@ -58,10 +61,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
+    // display: none;
     width: 30px;
     height: 30px;
     fill: white;
+		opacity: 0;
+		transition: all .6s ease;
     @media screen and (max-width: 890px) {
       display: none;
     }
