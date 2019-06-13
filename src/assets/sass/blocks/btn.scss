@@ -12,6 +12,9 @@
   border-radius: 30px;
   transition: all .4s ease;
 	cursor: pointer;
+	&:active {
+		transform: scale(0.95);
+	}
 	&:hover {
 		background:darken($apple, 10%);
 	}
