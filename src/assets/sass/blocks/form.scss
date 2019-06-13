@@ -7,6 +7,12 @@
 	@media screen and (max-width: 360px) {
 		width: 300px;
 	}
+	&__title {
+		margin-bottom: 18px;
+		@include robotoregular;
+		font-size: 26px;
+		text-align: center;
+	}
 	&__input {
 		margin-bottom: 20px;
 		padding: 0 15px;
@@ -16,6 +22,7 @@
 		font-size: 14px;
 		line-height: 40px;
 		color: $emperor;
+		border: 1px solid $mercury;
 		border-radius: 30px;
 	}
 }
