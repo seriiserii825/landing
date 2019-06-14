@@ -1,95 +1,96 @@
 .reviews-section {
-	margin-bottom: 110px;
-	.container {
-		position: relative;
-	}
-	&__description {
-		margin-bottom: 70px;
-	}
-}
-.reviews-slider {
-	&__img {
-		display: table;
-		margin: 0 auto 40px;
-		@include size(210px);
-		border-radius: 50%;
-		overflow: hidden;
-	}
-	&__title {
-		margin-bottom: 34px;
-		@include rubikrebold;
-		text-align: center;
-		text-transform: uppercase;
-	}
-	&__description {
-		margin-bottom: 24px;
-		@include robotolight;
-		font-size: 16px;
-		text-align: center;
-	}
-	&__text {
-		margin: 0 auto;
-		max-width: 760px;
-		@include robotothin;
-		text-align: center;
-	}
-	.slick-dots {
-		position: absolute;
-		left: 50%;
-		bottom: -80px;
-		display: flex;
-		align-items: center;
-		cursor: pointer;
-		& > * {
-			 &:not(:last-child){
-					margin-right: 10px;
-			}
-		}
-		li {
-			display: block;
-			@include size(10px);
-			background: black;
-			border-radius: 50%;
-			opacity: 0.25;
-			transition: all .4s ease;
-			&:hover {
-				opacity: 0.5;
-			}
-			&.slick-active {
-				opacity: 1;
-			}
-			button {
-				display: none;
-				font-size: 0;
-				background: none;
-				border: none;
-			}
-		}
-	}
-}
-.reviews-button {
-	position: absolute;
-	top: 50%;
-	width: 50px;
-	height: 45px;
-	background: none;
-	border: none;
-	cursor: pointer;
-	z-index: 1000;
-	display: block;
-	opacity: 0.7;
-	transition: all .4s ease;
-	@media screen and (max-width: 480px) {
-		display: none;
-	}
-	&:hover {
-		opacity: 1;
-	}
-	svg {
-		width: 50px;
-		height: 45px;
-	}
-	&--right {
-		right: 0;
-	}
-}
+	margin-bottom: 110px;
+	.container {
+		position: relative;
+	}
+	&__description {
+		margin-bottom: 70px;
+	}
+}
+.reviews-slider {
+	&__img {
+		display: table;
+		margin: 0 auto 40px;
+		@include size(210px);
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	&__title {
+		margin-bottom: 34px;
+		@include rubikrebold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__description {
+		margin-bottom: 24px;
+		@include robotolight;
+		font-size: 16px;
+		text-align: center;
+	}
+	&__text {
+		margin: 0 auto;
+		max-width: 760px;
+		@include robotothin;
+		text-align: center;
+	}
+	.slick-dots {
+		position: absolute;
+		left: 50%;
+		bottom: -80px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		& > * {
+			 &:not(:last-child){
+					margin-right: 10px;
+			}
+		}
+		li {
+			display: block;
+			@include size(10px);
+			background: black;
+			border-radius: 50%;
+			opacity: 0.25;
+			transition: all .4s ease;
+			&:hover {
+				opacity: 0.5;
+			}
+			&.slick-active {
+				opacity: 1;
+			}
+			button {
+				display: none;
+				font-size: 0;
+				background: none;
+				border: none;
+			}
+		}
+	}
+}
+.reviews-button {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 45px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	z-index: 1000;
+	display: block;
+	opacity: 0.7;
+	transition: all .4s ease;
+	@media screen and (max-width: 480px) {
+		display: none;
+	}
+	&:hover {
+		opacity: 1;
+	}
+	svg {
+		width: 50px;
+		height: 45px;
+	}
+	&--right {
+		right: 0;
+	}
+}
+

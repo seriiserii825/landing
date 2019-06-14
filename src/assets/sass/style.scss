@@ -1,78 +1,79 @@
 @import 'partials/fonts';
-@import 'partials/variables';
-@import 'partials/mixins';
-@import '../libs/slick/slick/slick.scss';
-
-html,
-body {
-	font-size: 17px;
-}
-
-body {
-	margin: 0;
-	@include robotoregular;
-	font-size: 18px;
-	line-height: 1.3;
-	color: $cod-gray;
-	background: white;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	padding: 0;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-ul {
-	@include reset-list;
-}
-
-p {
-	margin: 0;
-	padding: 0;
-}
-
-.hidden {
-	display: none;
-}
-
-
-.container {
-	margin: 0 auto;
-	padding: 0 15px;
-	max-width: 1100px;
-}
-
-
-
-@import "blocks/btn";
-@import "blocks/mfp";
-@import "blocks/section";
-@import "blocks/sandwitch";
-@import "blocks/header-main";
-@import "blocks/intro";
-@import "blocks/stock";
-@import "blocks/advantages";
-@import "blocks/gallery";
-@import "blocks/how-we-work";
-@import "blocks/certificates";
-@import "blocks/reviews";
-@import "blocks/questions";
-@import "blocks/form";
-@import "blocks/footer";
-@import "blocks/popups";
-
-
+@import 'partials/variables';
+@import 'partials/mixins';
+@import '../libs/slick/slick.scss';
+
+html,
+body {
+	font-size: 17px;
+}
+
+body {
+	margin: 0;
+	@include robotoregular;
+	font-size: 18px;
+	line-height: 1.3;
+	color: $cod-gray;
+	background: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	@include reset-list;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1100px;
+}
+
+
+
+@import "blocks/btn";
+@import "blocks/mfp";
+@import "blocks/section";
+@import "blocks/sandwitch";
+@import "blocks/header-main";
+@import "blocks/intro";
+@import "blocks/stock";
+@import "blocks/advantages";
+@import "blocks/gallery";
+@import "blocks/how-we-work";
+@import "blocks/certificates";
+@import "blocks/reviews";
+@import "blocks/questions";
+@import "blocks/form";
+@import "blocks/footer";
+@import "blocks/popups";
+
+
+

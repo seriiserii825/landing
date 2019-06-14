@@ -1,32 +1,33 @@
 extends template
 
-block css
-    link(rel="stylesheet" type="text/css" href="assets/libs/Magnific-Popup/dist/magnific-popup.css")
-    link(rel="stylesheet" type="text/css" href="assets/css/style.min.css")
+block css
+    link(rel="stylesheet" type="text/css" href="assets/libs/Magnific-Popup/dist/magnific-popup.css")
+    link(rel="stylesheet" href="assets/css/style.min.css")
 
-block title
-    title Главная
+block title
+    title Главная
 
-block content
-    include ../includes/mixins
-    .hidden
-        include ../../../build/assets/i/svg/inline/sprite.svg
+block content
+    include ../includes/mixins
+    .hidden
+        include ../../../build/assets/i/svg/inline/sprite.svg
 
-    include ../includes/header
-    include ../includes/intro
-    include ../includes/stock
-    include ../includes/advantages
-    include ../includes/gallery
-    include ../includes/how-we-work
-    include ../includes/certificates
-    include ../includes/reviews
-    include ../includes/questions
-    include ../includes/footer
-    include ../includes/popups
+    include ../includes/header
+    include ../includes/intro
+    include ../includes/stock
+    include ../includes/advantages
+    include ../includes/gallery
+    include ../includes/how-we-work
+    include ../includes/certificates
+    include ../includes/reviews
+    include ../includes/questions
+    include ../includes/footer
+    include ../includes/popups
 
-    include ../includes/scripts/ie-scripts
+    include ../includes/scripts/ie-scripts
 
-block scripts
-    script(src="assets/libs/Magnific-Popup/dist/jquery.magnific-popup.min.js")
-    script(src="assets/libs/slick/slick/slick.min.js")
-    script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")
+block scripts
+    script(src="assets/libs/Magnific-Popup/dist/jquery.magnific-popup.min.js")
+    script(src="assets/libs/slick/slick.min.js")
+    script(src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js")
+

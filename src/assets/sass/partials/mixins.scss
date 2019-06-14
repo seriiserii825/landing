@@ -1,101 +1,102 @@
 @mixin reset-list(){
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-@mixin size($number) {
-	width: $number;
-	height: $number;
-}
-
-@mixin placeholder-input($color) {
-	&[type='text']::-webkit-input-placeholder,
-	&[type='email']::-webkit-input-placeholder,
-	&[type='phone']::-webkit-input-placeholder{
-		color: $color;
-	}
-
-	&[type='text']::-moz-placeholder,
-	&[type='email']::-moz-placeholder,
-	&[type='phone']::-moz-placeholder{
-		color: $color;
-	}
-
-	/* webkit */
-
-	&[type='text']:-moz-placeholder,
-	&[type='email']:-moz-placeholder,
-	&[type='phone']:-moz-placeholder{
-		color: $color;
-	}
-
-	/* webkit */
-
-	&[type='text']:-ms-input-placeholder,
-	&[type='email']:-ms-input-placeholder,
-	&[type='phone']:-ms-input-placeholder{
-		color: $color;
-	}
-
-}
-
-@mixin placeholder-textarea($color) {
-	&::-webkit-input-placeholder{
-		color: $color;
-	}
-	/* webkit */
-
-	&::-moz-placeholder{
-		color: $color;
-	}
-
-	/* webkit */
-
-	&:-moz-placeholder{
-		color: $color;
-	}
-
-	/* webkit */
-
-	&:-ms-input-placeholder {
-		color: $color;
-	}
-}
-
-@mixin opensans(){
-	font-family: 'Open Sans', sans-serif;
-}
-
-@mixin opensanslight(){
-	font-family: 'Open Sans Light', sans-serif;
-}
-
-
-@mixin rubikregular(){
-	font-family: 'Rubik-Regular', sans-serif;
-}
-@mixin rubikrebold(){
-	font-family: 'Rubik-Bold', sans-serif;
-}
-@mixin rubikmedium(){
-	font-family: 'Rubik-Medium', sans-serif;
-}
-
-
-@mixin robotoregular(){
-	font-family: 'Roboto-Regular', sans-serif;
-}
-@mixin robotomedium(){
-	font-family: 'Roboto-Medium', sans-serif;
-}
-@mixin robotothin(){
-	font-family: 'Roboto-Thin', sans-serif;
-}
-@mixin robotolight(){
-	font-family: 'Roboto-Light', sans-serif;
-}
-
-@mixin helveticaneue(){
-	font-family: 'HelveticaNeueCyr-Roman', sans-serif;
-}
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@mixin size($number) {
+	width: $number;
+	height: $number;
+}
+
+@mixin placeholder-input($color) {
+	&[type='text']::-webkit-input-placeholder,
+	&[type='email']::-webkit-input-placeholder,
+	&[type='phone']::-webkit-input-placeholder{
+		color: $color;
+	}
+
+	&[type='text']::-moz-placeholder,
+	&[type='email']::-moz-placeholder,
+	&[type='phone']::-moz-placeholder{
+		color: $color;
+	}
+
+	/* webkit */
+
+	&[type='text']:-moz-placeholder,
+	&[type='email']:-moz-placeholder,
+	&[type='phone']:-moz-placeholder{
+		color: $color;
+	}
+
+	/* webkit */
+
+	&[type='text']:-ms-input-placeholder,
+	&[type='email']:-ms-input-placeholder,
+	&[type='phone']:-ms-input-placeholder{
+		color: $color;
+	}
+
+}
+
+@mixin placeholder-textarea($color) {
+	&::-webkit-input-placeholder{
+		color: $color;
+	}
+	/* webkit */
+
+	&::-moz-placeholder{
+		color: $color;
+	}
+
+	/* webkit */
+
+	&:-moz-placeholder{
+		color: $color;
+	}
+
+	/* webkit */
+
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+}
+
+@mixin opensans(){
+	font-family: 'Open Sans', sans-serif;
+}
+
+@mixin opensanslight(){
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+
+@mixin rubikregular(){
+	font-family: 'Rubik-Regular', sans-serif;
+}
+@mixin rubikrebold(){
+	font-family: 'Rubik-Bold', sans-serif;
+}
+@mixin rubikmedium(){
+	font-family: 'Rubik-Medium', sans-serif;
+}
+
+
+@mixin robotoregular(){
+	font-family: 'Roboto-Regular', sans-serif;
+}
+@mixin robotomedium(){
+	font-family: 'Roboto-Medium', sans-serif;
+}
+@mixin robotothin(){
+	font-family: 'Roboto-Thin', sans-serif;
+}
+@mixin robotolight(){
+	font-family: 'Roboto-Light', sans-serif;
+}
+
+@mixin helveticaneue(){
+	font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+}
+
