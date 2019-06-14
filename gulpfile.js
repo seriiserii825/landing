@@ -42,8 +42,6 @@ let gulp = require('gulp'),
 
 	svgBg = require("gul-svg-sprites"),
 
-  /images
-
   webp = require('gulp-webp'),
 
 	tinypng = require('gulp-tinypng-cmpress'),
