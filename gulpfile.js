@@ -458,7 +458,7 @@ gulp.task("watch", function () {
   gulp.watch('src/assets/js/**/*.js', gulp.series('alljs'));
 
   gulp.watch(['src/assets/i/**/*.*'], gulp.series("image"));
-
+  gulp.watch(['src/assets/libs/**/*.*'], gulp.series("libs"));
   gulp.watch(['src/assets/i/svg/inline/*.*'], gulp.series("svg"));
 
   gulp.watch(['src/assets/i/svg/bg/*.*'], gulp.series("svg-bg"));
