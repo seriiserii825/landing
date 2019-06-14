@@ -1,4 +1,5 @@
 Gemfile.lock
+<<<<<<< HEAD
 test/dest
 *.gem
 pkg/
@@ -22,3 +23,28 @@ Gemfile.lock
 /.idea
 .node-version
 .sass-cache/
+=======
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+bbin/
+sftp-config*
+_site
+.htaccess
+private-*
+__article/
+node_modules
+_production
+all.min.css
+*.sublime-*
+website/dist/
+*.idea
+/.idea
+.node-version
+.sass-cache/
+>>>>>>> final
