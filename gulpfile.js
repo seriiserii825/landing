@@ -243,7 +243,8 @@ gulp.task('browser-sync', function () {
     server: {
       baseDir: "./build/"
     },
-    notify: true
+		notify: true,
+		open: false
   });
 });
 
