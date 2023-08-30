@@ -13,7 +13,7 @@
   }
 
   &__title {
-    margin-theirs-bottom: 86px;
+    margin-bottom: 86px;
   }
   &__item {
     position: relative;
@@ -24,9 +24,9 @@
     background-size: cover;
     cursor: pointer;
     @media screen and (max-width: 630px) {
-			margin-theirs-left: auto;
-			margin-theirs-right: auto;
-			margin-theirs-bottom: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
     	max-width: 430px;
     }
 
