@@ -29,13 +29,13 @@
       display: flex;
       align-items: center;
       @media screen and (max-width: 740px) {
-        margin-bottom: 20px;
+        margin-ours-bottom: 20px;
       }
 
 
       & > *{
         &:not(:last-child){
-          margin-right: 34px;
+          margin-ours-right: 34px;
         }
       }
     }
@@ -51,7 +51,7 @@
   }
   &__link {
     display: block;
-    margin-left: auto;
+    margin-ours-left: auto;
     padding: 0 20px;
     @include helveticaneue;
     font-size: 14px;
@@ -61,7 +61,7 @@
     border: none;
     border-radius: 5px;
     @media screen and (max-width: 740px) {
-      margin-left: 0;
+      margin-ours-left: 0;
     }
 
     &:hover {
@@ -86,7 +86,7 @@
 }
 .main-menu {
   @media screen and (max-width: 900px) {
-    margin-bottom: 30px;
+    margin-ours-bottom: 30px;
   }
   @media screen and (max-width: 520px) {
     width: 100%;
@@ -102,12 +102,12 @@
     justify-content: center;
   }
   &__title {
-    margin-left: auto;
+    margin-ours-left: auto;
     text-transform: uppercase;
   }
   .sandwitch {
-    margin-left: auto;
-    margin-right: 20px;
+    margin-ours-left: auto;
+    margin-ours-right: 20px;
   }
 }
 .main-menu-list {
@@ -150,28 +150,28 @@
     align-items: center;
     justify-content: center;
     & > *{
-        margin: 10px  0;
+        margin-ours: 10px  0;
         &:first-child {
-            margin-top: 0;
+            margin-ours-top: 0;
         }
         &:last-child {
-            margin-bottom: 0;
+            margin-ours-bottom: 0;
         }
     }
   }
 
   & > *{
   	&:not(:last-child){
-  	    margin-right: 30px;
+  	    margin-ours-right: 30px;
         @media screen and (max-width: 410px) {
-          margin: 0;
+          margin-ours: 0;
         }
   	}
   }
 }
 .phone {
   &__number {
-    margin-bottom: 10px;
+    margin-ours-bottom: 10px;
     @include robotolight;
     font-size: 18px;
     text-decoration: none;

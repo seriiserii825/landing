@@ -9,13 +9,13 @@
   }
 
   &__title {
-    margin-bottom: 84px;
+    margin-ours-bottom: 84px;
   }
   & > *{
   	&:not(:last-child){
-  	    margin-right: 20px;
+  	    margin-ours-right: 20px;
       @media screen and (max-width: 890px) {
-        margin-right: auto;
+        margin-ours-right: auto;
       }
 
   	}
@@ -25,9 +25,9 @@
     flex: 1;
     display: block;
     @media screen and (max-width: 890px) {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 30px;
+      margin-ours-left: auto;
+      margin-ours-right: auto;
+      margin-ours-bottom: 30px;
       max-width: 353px;
     }
 
