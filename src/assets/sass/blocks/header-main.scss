@@ -29,13 +29,13 @@
       display: flex;
       align-items: center;
       @media screen and (max-width: 740px) {
-        margin-theirs-2-bottom: 20px;
+        margin-o-bottom: 20px;
       }
 
 
       & > *{
         &:not(:last-child){
-          margin-theirs-2-right: 34px;
+          margin-o-right: 34px;
         }
       }
     }
@@ -51,7 +51,7 @@
   }
   &__link {
     display: block;
-    margin-theirs-2-left: auto;
+    margin-o-left: auto;
     padding: 0 20px;
     @include helveticaneue;
     font-size: 14px;
@@ -61,7 +61,7 @@
     border: none;
     border-radius: 5px;
     @media screen and (max-width: 740px) {
-      margin-theirs-2-left: 0;
+      margin-o-left: 0;
     }
 
     &:hover {
@@ -86,7 +86,7 @@
 }
 .main-menu {
   @media screen and (max-width: 900px) {
-    margin-theirs-2-bottom: 30px;
+    margin-o-bottom: 30px;
   }
   @media screen and (max-width: 520px) {
     width: 100%;
@@ -102,12 +102,12 @@
     justify-content: center;
   }
   &__title {
-    margin-theirs-2-left: auto;
+    margin-o-left: auto;
     text-transform: uppercase;
   }
   .sandwitch {
-    margin-theirs-2-left: auto;
-    margin-theirs-2-right: 20px;
+    margin-o-left: auto;
+    margin-o-right: 20px;
   }
 }
 .main-menu-list {
@@ -150,28 +150,28 @@
     align-items: center;
     justify-content: center;
     & > *{
-        margin-theirs-2: 10px  0;
+        margin-o: 10px  0;
         &:first-child {
-            margin-theirs-2-top: 0;
+            margin-o-top: 0;
         }
         &:last-child {
-            margin-theirs-2-bottom: 0;
+            margin-o-bottom: 0;
         }
     }
   }
 
   & > *{
   	&:not(:last-child){
-  	    margin-theirs-2-right: 30px;
+  	    margin-o-right: 30px;
         @media screen and (max-width: 410px) {
-          margin-theirs-2: 0;
+          margin-o: 0;
         }
   	}
   }
 }
 .phone {
   &__number {
-    margin-theirs-2-bottom: 10px;
+    margin-o-bottom: 10px;
     @include robotolight;
     font-size: 18px;
     text-decoration: none;
