@@ -9,7 +9,7 @@
 	}
 	&__title {
 		@include rubikrebold;
-		margin-ours-bottom: 24px;
+		margin-1-bottom: 24px;
 		@media screen and (max-width: 510px) {
 			text-align: center;
 		}
@@ -18,13 +18,13 @@
 		@include robotothin;
 		font-size: 16px;
 		@media screen and (max-width: 510px) {
-			margin-ours-bottom: 30px;
+			margin-1-bottom: 30px;
 			text-align: center;
 		}
 	}
 	.phone__number {
 		display: block;
-		margin-ours-bottom: 24px;
+		margin-1-bottom: 24px;
 		@include robotomedium;
 		font-size: 22px;
 		@media screen and (max-width: 510px) {
@@ -32,7 +32,7 @@
 		}
 	}
 	.btn {
-		margin-ours: 0 auto;
+		margin-1: 0 auto;
 	}
 }
 
