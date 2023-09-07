@@ -22,13 +22,13 @@
   }
 
   &__title {
-    margin-theirs-bottom: 84px;
+    margin-ours-bottom: 84px;
   }
   & > *{
   	&:not(:last-child){
-  	    margin-theirs-right: 20px;
+  	    margin-ours-right: 20px;
         @media screen and (max-width: 990px) {
-          margin-theirs-right: auto;
+          margin-ours-right: auto;
         }
   	}
   }
@@ -38,19 +38,19 @@
     padding: 35px 25px;
     border-radius: 5px;
     @media screen and (max-width: 990px) {
-      margin-theirs: 0 auto 30px auto;
+      margin-ours: 0 auto 30px auto;
       max-width: 500px;
     }
 
   }
   &__title-item {
-    margin-theirs-bottom: 40px;
+    margin-ours-bottom: 40px;
    @include rubikmedium;
     font-size: 48px;
     text-align: center;
   }
   &__subtitle {
-    margin-theirs-bottom: 30px;
+    margin-ours-bottom: 30px;
     @include rubikrebold;
     font-size: 22px;
     text-align: center;

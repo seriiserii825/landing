@@ -25,12 +25,12 @@
     height: 100%;
     z-index: 2;
     & > *{
-        margin-theirs: 34px 0;
+        margin-ours: 34px 0;
         &:first-child {
-            margin-theirs-top: 0;
+            margin-ours-top: 0;
         }
         &:last-child {
-            margin-theirs-bottom: 0;
+            margin-ours-bottom: 0;
         }
     }
   }
@@ -47,7 +47,7 @@
       font-size: 42px;
       line-height: 44px;
     }
-
+
   }
   &__description {
     @include robotothin;
