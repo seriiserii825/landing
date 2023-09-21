@@ -10,7 +10,7 @@
   &__image {
     flex: 0 0 55%;
     @media screen and (max-width: 970px) {
-      margin-changed-bottom: 40px;
+      margin-1-bottom: 40px;
       text-align: center;
     }
 
@@ -20,7 +20,7 @@
     flex: 0 0 45%;
   }
   &__title {
-    margin-changed-bottom: 40px;
+    margin-1-bottom: 40px;
     font-size: 48px;
     text-align: left;
     @media screen and (max-width: 970px) {
@@ -33,14 +33,14 @@
 
   }
   &__text {
-    margin-changed-bottom: 40px;
+    margin-1-bottom: 40px;
     @include robotothin;
     font-size: 22px;
     line-height: 30px;
   }
   .btn {
     @media screen and (max-width: 970px) {
-      margin-changed: 0 auto;
+      margin-1: 0 auto;
     }
   }
 }
