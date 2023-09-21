@@ -25,12 +25,12 @@
     height: 100%;
     z-index: 2;
     & > *{
-        margin-changed: 34px 0;
+        margin-2: 34px 0;
         &:first-child {
-            margin-changed-top: 0;
+            margin-2-top: 0;
         }
         &:last-child {
-            margin-changed-bottom: 0;
+            margin-2-bottom: 0;
         }
     }
   }

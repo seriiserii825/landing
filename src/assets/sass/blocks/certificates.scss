@@ -9,13 +9,13 @@
   }
 
   &__title {
-    margin-changed-bottom: 84px;
+    margin-2-bottom: 84px;
   }
   & > *{
   	&:not(:last-child){
-  	    margin-changed-right: 20px;
+  	    margin-2-right: 20px;
       @media screen and (max-width: 890px) {
-        margin-changed-right: auto;
+        margin-2-right: auto;
       }
 
   	}
@@ -25,9 +25,9 @@
     flex: 1;
     display: block;
     @media screen and (max-width: 890px) {
-      margin-changed-left: auto;
-      margin-changed-right: auto;
-      margin-changed-bottom: 30px;
+      margin-2-left: auto;
+      margin-2-right: auto;
+      margin-2-bottom: 30px;
       max-width: 353px;
     }
 
