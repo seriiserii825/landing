@@ -1,34 +1,34 @@
 .reviews-section {
-	margin-bottom: 110px;
+	margin-o-bottom: 110px;
 	.container {
 		position: relative;
 	}
 	&__description {
-		margin-bottom: 70px;
+		margin-o-bottom: 70px;
 	}
 }
 .reviews-slider {
 	&__img {
 		display: table;
-		margin: 0 auto 40px;
+		margin-o: 0 auto 40px;
 		@include size(210px);
 		border-radius: 50%;
 		overflow: hidden;
 	}
 	&__title {
-		margin-bottom: 34px;
+		margin-o-bottom: 34px;
 		@include rubikrebold;
 		text-align: center;
 		text-transform: uppercase;
 	}
 	&__description {
-		margin-bottom: 24px;
+		margin-o-bottom: 24px;
 		@include robotolight;
 		font-size: 16px;
 		text-align: center;
 	}
 	&__text {
-		margin: 0 auto;
+		margin-o: 0 auto;
 		max-width: 760px;
 		@include robotothin;
 		text-align: center;
@@ -42,7 +42,7 @@
 		cursor: pointer;
 		& > * {
 			 &:not(:last-child){
-					margin-right: 10px;
+					margin-o-right: 10px;
 			}
 		}
 		li {
