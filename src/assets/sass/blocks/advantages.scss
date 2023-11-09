@@ -8,32 +8,32 @@
     z-index: 2;
   }
   &__title {
-    margin-z-bottom: 50px;
+    margin-bottom: 50px;
   }
   &__description {
-    margin-z-bottom: 80px;
+    margin-bottom: 80px;
     @include robotothin;
     font-size: 28px;
     line-height: 1.3;
     text-align: center;
   }
   &-list {
-    margin-z: 0 auto;
+    margin: 0 auto;
     max-width: 560px;
     & > *{
-        margin-z: 64px 0;
+        margin: 64px 0;
         &:first-child {
-            margin-z-top: 0;
+            margin-top: 0;
         }
         &:last-child {
-            margin-z-bottom: 0;
+            margin-bottom: 0;
         }
     }
     &__item {
       display: flex;
       & > *{
       	&:not(:last-child){
-      	    margin-z-right: 42px;
+      	    margin-right: 42px;
       	}
       }
     }
@@ -47,7 +47,7 @@
       }
     }
     &__title {
-      margin-z-bottom: 24px;
+      margin-bottom: 24px;
       @include rubikrebold;
       font-size: 22px;
       text-transform: uppercase;
