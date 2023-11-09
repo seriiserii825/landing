@@ -9,13 +9,13 @@
   }
 
   &__title {
-    margin-o-bottom: 84px;
+    margin-z-bottom: 84px;
   }
   & > *{
   	&:not(:last-child){
-  	    margin-o-right: 20px;
+  	    margin-z-right: 20px;
       @media screen and (max-width: 890px) {
-        margin-o-right: auto;
+        margin-z-right: auto;
       }
 
   	}
@@ -25,9 +25,9 @@
     flex: 1;
     display: block;
     @media screen and (max-width: 890px) {
-      margin-o-left: auto;
-      margin-o-right: auto;
-      margin-o-bottom: 30px;
+      margin-z-left: auto;
+      margin-z-right: auto;
+      margin-z-bottom: 30px;
       max-width: 353px;
     }
 

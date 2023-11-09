@@ -25,12 +25,12 @@
     height: 100%;
     z-index: 2;
     & > *{
-        margin-o: 34px 0;
+        margin-z: 34px 0;
         &:first-child {
-            margin-o-top: 0;
+            margin-z-top: 0;
         }
         &:last-child {
-            margin-o-bottom: 0;
+            margin-z-bottom: 0;
         }
     }
   }
